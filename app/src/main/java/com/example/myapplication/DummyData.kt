@@ -1,12 +1,10 @@
 package com.example.myapplication
 
 object DummyData {
-    val facts = listOf<FactModel>(
-        FactModel("Kotlin",
+    val facts = arrayOf<FactModel>(
+        FactModel("AT & T",
         R.drawable.kotlin_logo,
-        "The name comes from Kotlin Island,near St. Petersburg. Andrey Breslav mentioned that the team decided" +
-                "to name"
-
+        "Headquartered in Dallas,Texas"
         ),
 
         FactModel(

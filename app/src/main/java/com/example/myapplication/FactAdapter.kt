@@ -19,14 +19,12 @@ class FactAdapter(context: Context, facts:List<FactModel>):ArrayAdapter<FactMode
         }
 
         val logo = view?.findViewById<ImageView>(R.id.programLogo)
-        val name = view?.findViewById<TextView>(R.id.nameOfProgram)
+        val name = view?.findViewById<TextView>(R.id.description)
         fact?.logo?.let{
             logo?.setImageResource(fact.logo)
         }
         name?.text = fact?.name
 
         return view!!
-
-        return super.getView(position, convertView, parent)
     }
 }
