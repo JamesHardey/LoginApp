@@ -6,6 +6,7 @@ import android.widget.AdapterView
 import android.widget.ListView
 import androidx.appcompat.app.AppCompatActivity
 
+@Suppress("UNUSED_ANONYMOUS_PARAMETER")
 class SecondActivity: AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {

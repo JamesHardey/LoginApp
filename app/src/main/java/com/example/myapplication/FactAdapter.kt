@@ -15,15 +15,18 @@ class FactAdapter(context: Context, facts:List<FactModel>):ArrayAdapter<FactMode
         val fact = getItem(position)
 
         if(view==null){
-            view = LayoutInflater.from(parent.context).inflate(R.layout.fact_item,parent,false)
+            view = LayoutInflater.from(parent.context).inflate(R.layout.custom_item,parent,false)
         }
 
-        val logo = view?.findViewById<ImageView>(R.id.programLogo)
-        val name = view?.findViewById<TextView>(R.id.description)
+        val logo = view?.findViewById<ImageView>(R.id.itemImage)
+        val name = view?.findViewById<TextView>(R.id.itemName)
+        val desc = view?.findViewById<TextView>(R.id.itemDesc)
+
         fact?.logo?.let{
             logo?.setImageResource(fact.logo)
         }
         name?.text = fact?.name
+        desc?.text = fact?.fact
 
         return view!!
     }

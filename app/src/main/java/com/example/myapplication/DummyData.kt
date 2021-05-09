@@ -2,7 +2,7 @@ package com.example.myapplication
 
 object DummyData {
     val facts = arrayOf<FactModel>(
-        FactModel("AT & T",
+        FactModel("Kotlin",
         R.drawable.kotlin_logo,
         "Headquartered in Dallas,Texas"
         ),
