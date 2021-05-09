@@ -18,6 +18,8 @@ class SecondActivity: AppCompatActivity() {
         listData.addAll(DummyData.facts)
         val adapter = FactAdapter(this,listData)
 
+        title = "Telecommunication Companies"
+
         listView.adapter=adapter
         listView.onItemClickListener = AdapterView.OnItemClickListener{parent, view, position, id ->
             val factModel = listView.getItemAtPosition(position) as FactModel
