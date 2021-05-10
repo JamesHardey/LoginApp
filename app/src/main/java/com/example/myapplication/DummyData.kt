@@ -18,7 +18,7 @@ object DummyData {
         ),
 
         FactModel(
-            "Telstra Telecom Logo",
+            "Telstra Telecom",
             R.drawable.telstra,
             "Based in Melbourne, Australia, Telstra is one of the world’s most popular telecom and information" +
                     " service providers. Telstra’s stylish and colorful telecom logo is aimed at capturing the " +
@@ -38,7 +38,7 @@ object DummyData {
         ),
 
         FactModel(
-            "Nippon Telegraph & Telephone Corp.",
+            "Nippon Telephone Corp.",
             R.drawable.nippon,
             "Nippon Telegraph & Telephone Corp. is headquartered in Tokyo, Japan and is mainly engaged in telecom services. " +
                     "The company’s simple and elegant logo represents " +
@@ -46,14 +46,14 @@ object DummyData {
         ),
 
         FactModel(
-                "America Movil Telecom Logo",
+                "America Movil Telecom",
         R.drawable.movil,
         "Headquartered in Mexico City, Mexico, America Movil is one of the popular wireless telecommunications service providers." +
                 " America Movil’s stylish logo is a swirling design that indicates growth of the company’s business."
         ),
 
         FactModel(
-            "Deutsche Telekom Logo",
+            "Deutsche Telekom",
             R.drawable.deutsche,
             "Operating out of Bonn, Germany, Deutsche Telekom is a leading telecommunication, information technology, " +
                     "information, entertainment and multimedia service provider. Its logo has the letter T in red. The letter dominates the design." +
@@ -63,7 +63,7 @@ object DummyData {
 
 
         FactModel(
-            "Telefonica Communication Logo",
+            "Telefonica Communication",
             R.drawable.telefonica,
             "Based in Madrid, Spain, Telefonica is an integrated telecom operator popular for offering exceptional " +
                     "communication and information services. The Telefonica logo has a large circle and small colored balls in T shape. " +
@@ -72,7 +72,7 @@ object DummyData {
         ),
 
         FactModel(
-            "SoftBank Telecommunication Logo",
+            "SoftBank Telecommunication",
             R.drawable.softbank,
             "SoftBank Corp. is headquartered in Tokyo, Japan and provides information technology and telecommunication services." +
                     "It has a fairly simple telecommunication logo. It has a yellow equation sign that stands " +
@@ -80,7 +80,7 @@ object DummyData {
         ),
 
         FactModel(
-            "Vodafone Telecommunication Logo",
+            "Vodafone Telecommunication",
             R.drawable.vodafone,
             "Vodafone Group is headquartered in UK and specializes in providing mobile telecom services." +
                     " Its colorful speech mark logo symbolizes conversation and voice communication. " +

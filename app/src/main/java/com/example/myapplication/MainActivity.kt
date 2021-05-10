@@ -26,9 +26,9 @@ class MainActivity : AppCompatActivity() {
 
         button.setOnClickListener{
             if(loginConfirm()){
-
+                showListView()
             }
-            showListView()
+
         }
     }
 
@@ -38,15 +38,25 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun loginConfirm():Boolean{
+        var t:Toast
+        var empty = "Cant be left empty"
         return if (user.text?.isEmpty()!!|| pass.text?.isEmpty()!!){
-            Toast.makeText(this,"Incorrect username or password",Toast.LENGTH_LONG)
+            user.error = empty
+            pass.error = empty
             false
-        } else if(!(user.toString().equals(username,true)&& pass.toString() == password)){
-            Toast.makeText(this@MainActivity,"Incorrect username or password",Toast.LENGTH_LONG)
-            false
-        } else {
-            Toast.makeText(this@MainActivity,"Login Successful",Toast.LENGTH_SHORT)
+        }
+
+        else if((user.text.toString().equals(username,true)&& pass.text.toString() == password)){
+            t = Toast.makeText(this@MainActivity,"Login Successful",Toast.LENGTH_SHORT)
+            t.show()
             true
+
+        }
+
+        else {
+            user.error = "incorrect username"
+            pass.error = "incorrect password"
+            false
         }
     }
 
