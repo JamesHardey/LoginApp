@@ -24,6 +24,8 @@ class MainActivity : AppCompatActivity() {
         pass = findViewById<TextInputEditText>(R.id.password)
         val button = findViewById<Button>(R.id.btn)
 
+        title="Login"
+
         button.setOnClickListener{
             if(loginConfirm()){
                 showListView()
@@ -49,6 +51,7 @@ class MainActivity : AppCompatActivity() {
         else if((user.text.toString().equals(username,true)&& pass.text.toString() == password)){
             t = Toast.makeText(this@MainActivity,"Login Successful",Toast.LENGTH_SHORT)
             t.show()
+
             true
 
         }
