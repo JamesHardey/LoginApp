@@ -5,4 +5,6 @@
     <string name="login">Login</string>
     <string name="image">image</string>
     <string name="more">Tap to see more</string>
+    <string name="logo">Logos</string>
+    <string name="tel">Telecommunication Companies</string>
 </resources>
