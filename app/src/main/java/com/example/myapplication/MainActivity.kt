@@ -11,7 +11,7 @@ import com.google.android.material.textfield.TextInputEditText
 
 
 class MainActivity : AppCompatActivity() {
-    private val username = "admin"
+    private val username = "admin@gmail.com"
     private val password = "admin1234"
     lateinit var  user : TextInputEditText
     lateinit var  pass : TextInputEditText
